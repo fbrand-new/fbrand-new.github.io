@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns= "http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8">
+<meta name="google" content="notranslate">
+<meta http-equiv="Content-Language" content="en">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Chiara Rocchi</title>
+<title>Chiara Rocchi</title>
+<meta name="description" content="Architecture &amp; Research" />
+
+
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" media="all" href="app.css" data-turbolinks-track="reload" />
+<link rel="stylesheet" href="ChiaraApp.css">
+
+<!-- <script src="/assets/application-91b887d8c4be46a7b977851a34a7c354236f85916231fbd29004456170b37412.js" data-turbolinks-track="reload"></script> -->
+  </head>
+
+  <body class="projects projects-slider home" data-controller="projects">
+
+  	<header id="main-header" data-turbolinks-permanent>
+
+	<!-- PRIMARY HEADER -->
+	<div class="primary-header">
+		<div class="primary-header--right">
+			<p>/<a class="turbolink active-link--researches" href="/url">URL</a></p>
+		</div>
+		<div class="primary-header--left">
+			<p>/<a class="turbolink active-link--projects" href="/portfolio">portfolio</a></p>
+		</div>
+		<div class="primary-header--center">
+			<p>/<a class="turbolink" href="/">home</a></p>
+			<a class="turbolink primary-header--research-back" href="/"><img src="http://www.andreacaputo.com/assets/mix/research-back-d60fa38d606a742afbb1d90f896ad268d1ff840c18820f93a7e223a8e7faffd8.png" alt="Research list"></a>
+		</div>
+		<div class="primary-header--extra">
+			<a class="turbolink" href="/contacts">A</a>
+		</div>
+		<div class="primary-header--burger">
+	  	<span></span>
+	  	<span></span>
+	  	<span></span>
+	  	<span></span>
+		</div>
+	</div>
+
+	<!-- SECONDARY HEADER -->
+	<div class="secondary-header">
+		<div class="secondary-header--nav-item-left">
+			<p>/<a class="turbolink" href="/portfolio">portfolio</a></p>
+		</div>
+		<div class="secondary-header--submenu">
+			<a class="turbolink" href="/jobs">jobs</a>
+			<a class="turbolink" href="/pages/impressum">impressum</a>
+		</div>
+		<div class="secondary-header--nav-item-right">
+			<p>/<a class="turbolink" href="/url">URL</a></p>
+		</div>
+		<p class="secondary-header--research-list" data-open="index" data-close="close index">/<a href="#">index</a></p>
+	</div>
+
+</header>
+
+
+<!-- Main part of the homepage -->
+<main class="mainPosition">
+		<nav class="galleryDisplay">
+			<div class="galleryItem_1">
+				<a href="#" class="itemLink"><img src="/Pictures/Chiara_4.jpg" alt=""></a>
+				<aside class="itemTitle">
+					<h2>Drawings</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate modi, nesciunt maiores asperiores aperiam qui exercitationem eligendi eveniet distinctio autem, consequatur vel id, amet expedita nostrum deserunt rerum incidunt necessitatibus!</p>
+				</aside>
+			</div>
+			
+			<div class="galleryItem_2">
+					<!-- Trigger the modal -->
+			<img id="myImg" class="itemLink" src="/Pictures/Chiara_2.jpg"  alt="ChiaraFirstDrawing">
+					<!-- Modal -->
+			</div>
+				<div id="cModal" class="modal">
+					<!-- Button to close -->
+					<span class="close">&times;</span>
+					<!-- Modal content -->
+					<img src="" class="modal-content" id="modalImage" alt="">
+					<!-- Modal Caption -->
+					<div id="captionA"></div>
+				</div>
+			
+			<div class="galleryItem_3">
+				<a href="" class="itemLink"><img src="/Pictures/Chiara_3.jpg" alt=""></a>
+				<aside>
+					<h2></h2>
+					<p></p>
+				</aside>
+			</div>
+			
+		</nav>
+
+	</main>
+
+
+
+
+
+  	<footer id="main-footer">
+
+	<div class="main-footer--bar">
+		  <!-- <div class="main-footer--contact">
+			<a class="turbolink main-footer--contact-cities" href="/contacts"><span class="flag-font">O</span> <span class="default-font"><span class="translation_missing" title="translation missing: en.AC.MILAN">Milan</span></span> &nbsp;&nbsp; <span class="flag-font">O</span> <span class="default-font"><span class="translation_missing" title="translation missing: en.AC.SHANGHAI">Shanghai</span></span></a>
+			<a class="turbolink main-footer--contact-placeholder" href="/contacts"><span class="flag-font">O</span></a> 
+		</div>  -->
+		<div class="main-footer--home">
+			<p>chiararocchi.com</p>
+		</div>
+		<div class="main-footer--navigation">
+			<a class="turbolink" href="/jobs">jobs</a>
+			<a class="turbolink" href="/pages/impressum">impressum</a>
+		</div>
+	</div>
+
+</footer>
+
+
+  	<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-96618334-1', 'auto');
+ ga('send', 'pageview');
+
+</script>
+<script src="modal.js"></script>
+  </body>
+</html>
